@@ -16,7 +16,7 @@ Sem chave de API. Sem custo. Roda em segundos.
 ## O que o demo mostra
 
 1. **Share of Model consolidado** de quatro marcas fictícias em quatro modelos simulados.
-2. **Comparação medido × verdade** (só possível no modo simulado) — o intervalo de confiança contém o valor verdadeiro?
+2. **Comparação medido × verdade** (só possível no modo simulado), o intervalo de confiança contém o valor verdadeiro?
 3. **Tabela de convergência**: com poucas observações a margem de erro é enorme; com ~900 ela cai para a ordem de 2–3 pontos.
 
 ```
@@ -97,7 +97,7 @@ Custo aproximado: 120 prompts × 4 modelos × 2 execuções = 960 chamadas por r
 
 ## Decisões técnicas
 
-- **Intervalo de Wilson** (não aproximação normal) — a normal se comporta mal perto de 0%.
+- **Intervalo de Wilson** (não aproximação normal) a normal se comporta mal perto de 0%.
 - **Verdade do simulador por Monte Carlo**, não pela força latente normalizada.
 - **Variância por rodada completa**, não por prompt individual.
 - **Dependência única: `pyyaml`**. Estatística escrita à mão (valor didático).
@@ -107,5 +107,3 @@ Veja `ROADMAP.md` para as lacunas ainda abertas e `CLAUDE.md` para as regras int
 ---
 
 *O conceito de Share of Model foi proposto por Tom Roach na Marketing Week em 2024. A metodologia deste repositório é uma compilação das fontes citadas no Artigo 3, não um padrão estabelecido.*
-
-Licença: MIT.
