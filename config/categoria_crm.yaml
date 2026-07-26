@@ -1,0 +1,17 @@
+categoria: CRM (demo)
+descricao: >
+  Conjunto fictício usado apenas para demonstração do protocolo.
+  Marcas inventadas de propósito — não representam nenhum mercado real.
+marcas:
+  - id: marca_a
+    nome: Marca A
+    aliases: ["MarcaA", "marca-a", "A CRM"]
+  - id: marca_b
+    nome: Marca B
+    aliases: ["MarcaB", "marca-b"]
+  - id: marca_c
+    nome: Marca C
+    aliases: ["MarcaC", "marca-c"]
+  - id: marca_d
+    nome: Marca D
+    aliases: ["MarcaD", "marca-d"]

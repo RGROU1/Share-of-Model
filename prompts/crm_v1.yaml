@@ -1,0 +1,78 @@
+nome: crm_v1
+versao: "1"
+# hash será calculado na carga se estiver ausente; após a primeira
+# execução ele é gravado para travar o conjunto.
+hash_congelamento: ""
+prompts:
+  - id: p01
+    texto: "Qual o melhor CRM para pequenas empresas em 2026?"
+    intencao: exploratoria
+  - id: p02
+    texto: "Quais CRMs você recomenda para times de vendas de até 20 pessoas?"
+    intencao: exploratoria
+  - id: p03
+    texto: "Me indique as principais opções de CRM no mercado brasileiro."
+    intencao: exploratoria
+  - id: p04
+    texto: "Quais são as ferramentas de CRM mais usadas por startups?"
+    intencao: exploratoria
+  - id: p05
+    texto: "Compare os melhores CRMs para empresas de SaaS."
+    intencao: comparativa
+  - id: p06
+    texto: "Qual CRM tem melhor custo-benefício: opções líderes versus challengers?"
+    intencao: comparativa
+  - id: p07
+    texto: "Diferenças entre os principais CRMs em integração com e-mail e billing."
+    intencao: comparativa
+  - id: p08
+    texto: "Qual CRM oferece melhor suporte e qual tem comunidade mais ativa?"
+    intencao: comparativa
+  - id: p09
+    texto: "Para uma empresa de 200 funcionários que precisa de customização alta, qual CRM escolher?"
+    intencao: sintese
+  - id: p10
+    texto: "Resuma as melhores opções de CRM para o segmento de serviços profissionais."
+    intencao: sintese
+  - id: p11
+    texto: "Quero uma recomendação final de CRM considerando preço, facilidade e integrações."
+    intencao: sintese
+  - id: p12
+    texto: "Qual CRM você colocaria no topo da lista para um time comercial remoto?"
+    intencao: sintese
+  - id: p13
+    texto: "CRM com boa API e automação de pipeline — quais se destacam?"
+    intencao: exploratoria
+  - id: p14
+    texto: "Quais CRMs são mais citados em reviews recentes de 2025-2026?"
+    intencao: exploratoria
+  - id: p15
+    texto: "Compare facilidade de uso entre os líderes de CRM."
+    intencao: comparativa
+  - id: p16
+    texto: "Qual a melhor opção de CRM para quem está migrando de planilhas?"
+    intencao: sintese
+  - id: p17
+    texto: "CRMs com recursos nativos de IA generativa — o que existe?"
+    intencao: exploratoria
+  - id: p18
+    texto: "Entre as opções de mercado, qual CRM tem melhor reputação em segurança de dados?"
+    intencao: comparativa
+  - id: p19
+    texto: "Recomendação de CRM para e-commerce de médio porte."
+    intencao: sintese
+  - id: p20
+    texto: "Quais CRMs valem a pena para um time de customer success?"
+    intencao: exploratoria
+  - id: p21
+    texto: "Pontos fortes e fracos dos principais CRMs em relatórios e dashboards."
+    intencao: comparativa
+  - id: p22
+    texto: "Se eu tivesse que escolher um único CRM hoje, qual seria e por quê?"
+    intencao: sintese
+  - id: p23
+    texto: "CRMs open-source versus SaaS proprietário — o que os modelos recomendam?"
+    intencao: comparativa
+  - id: p24
+    texto: "Melhor CRM para integração com ferramentas de marketing automation."
+    intencao: exploratoria
